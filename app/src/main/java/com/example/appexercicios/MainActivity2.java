@@ -3,10 +3,13 @@ package com.example.appexercicios;
 
 //Aqui cada elemento é importado para a interface do usuário//
 import android.annotation.SuppressLint;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.MediaController;
 import android.widget.TextView;
+import android.widget.VideoView;
 
 //Esse import serve para importa as classes//
 import androidx.appcompat.app.AppCompatActivity;
@@ -26,6 +29,15 @@ public class MainActivity2 extends AppCompatActivity {
         valora = findViewById(R.id.txtvalor1);
         valorb = findViewById(R.id.txtvalor2);
         result = findViewById(R.id.txtresultado2);
+
+        // pegando o video view
+        VideoView video = findViewById(R.id.vv);
+
+        //adicionei uma videoView mostrando as imagens do cardapio em forma de video
+        Uri src = Uri.parse("android.resource://com.example.appexercicios/raw/math");
+        video.setVideoURI(src);
+
+        video.setMediaController(new MediaController(this));
     }
 
     //Esse método abaixo retorna os valores calculados na função construida//

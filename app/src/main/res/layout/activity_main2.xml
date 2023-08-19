@@ -81,17 +81,14 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="LabelFor,MissingConstraints" />
 
-    <RadioButton
-        android:id="@+id/radiobtngostar"
-        android:layout_width="263dp"
-        android:layout_height="59dp"
-        android:layout_marginStart="87dp"
-        android:layout_marginTop="122dp"
-        android:layout_marginEnd="61dp"
-        android:layout_marginBottom="550dp"
-        android:buttonTint="#FFFFFF"
-        android:text="Está gotando do APP?"
-        android:textSize="20sp"
+    <VideoView
+        android:id="@+id/vv"
+        android:layout_width="299dp"
+        android:layout_height="162dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="532dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
