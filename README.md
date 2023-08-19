@@ -37,6 +37,11 @@ O elemento "Video View" com a finalidade de reproduzir um video no app, que no
 
 ![image](https://github.com/Carolinacss/exer/assets/127458533/99eb7df5-9089-4de1-885c-c818ba0e0761)
 
+## Video resultado do APP
+https://github.com/Carolinacss/exer/assets/127458533/bd68df66-9b1c-4213-a8cf-dd0ff4d33a41
+
+
+
 
 
 
